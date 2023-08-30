@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Glanc</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+
+    #signup-window {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 300px;
+      padding: 20px;
+      background-color: #f1f1f1;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      text-align: center;
+    }
+  </style>
+  <style>
+    footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  margin-bottom: 15px;
+}
+
+.small-text {
+  font-size: 20px;
+  color: gray;
+}
+    .item {
+      margin-bottom: 20px;
+    }
+
+    .item img {
+      width: 500px;
+      height: auto;
+    }
+    .container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .image {
+    flex: 1;
+    padding: 60px;
+  }
+  
+  .text {
+    flex: 1;
+    padding: 10px;
+    text-align: left;
+    font-size: larger;
+  }
+  .slike {
+    width: 600px;
+    height: 400px;
+
+  }
+  .velikeslike {
+    padding: 30px;
+    align-items: center;
+    width: 1320px;
+    height: 700px;
+  }
+  .opis {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: larger;
+  }
+  .nalov {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 
+  }
+  .prijava {
+    width: 300px;
+    margin-top: 80px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  </style>
+</head>
+<body>
+
+<div class="jumbotron text-center" style="margin-bottom:0;">
+  <h1>Dubinsko čišćenje i poliranje vozila</h1>
+</div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="ispit.html">Naslovnica</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="dnevni.html">Poliranje</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="dubinsko.html">Dubinsko čišćenje</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="keramika.html">Keramika</a>
+      </li>    
+   
+      
+    </ul>
+  </div>  
+</nav>
+<h1 class="nalov">Dubinsko čišćenje</h1>
+<img src=https://mojepranje.rs/wp-content/uploads/2020/04/dubinsko-pranje-auta.jpg alt="Image" class="velikeslike" >
+<p class="opis">Dubinski se mogu oprati sjedala te svi ostali tapecirani dijelovi, a to su vrata, podovi i krov. Također se čiste plastični i kožni dijelovi u unutrašnjosti vozila</p>
+<p class="opis">Najčešće, dubinsko čišćenje je potrebno vozilima koja pripadaju obitelji s djecom te putničkim i radnim vozilima.</p>
+<p class="opis">Postupkom se uspješno uklanjaju mrlje od hrane ili pića, blata, znoja, povraćanja i sl. Ako vozilo nema oštećenja ili težih fleka poput boja, ulja i raznih sličnih tvari, vozilo će nakon dubinskog čišćenja biti kao novo.</p>
+<p class="opis">Trajanje postupka je relativno, ovisi o veličini vozila, stupnju zaprljanosti i želji vlasnika koji dio vozila želi očistiti. Najčešće vrijeme trajanja postupka je između 2 i 8 sati.</p>
+<p class="opis">Nakon čišćenja vozilo još neko vrijeme ostaje vlažno, stoga Vaš auto može ostati kod nas dok ne bude potpuno suh i spreman za korištenje. Sam proces sušenja auta je brz.</p>
+</body>
+<footer>
+    <div class="footer-content">
+      <p>Kontaktirajte nas</p>
+      <p class="small-text">063-123-456</p>
+      <p class="small-text">Namjestaj.123@gmail.com</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45249.80475324598!2d18.73322447900421!3d44.859998441895534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475c0e6053d6414b%3A0x7ac2502e23b00e62!2sFIS!5e0!3m2!1shr!2sba!4v1689575121991!5m2!1shr!2sba" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="prijava">
+        <h2>Registracija</h2>
+        <form>
+          <div class="form-group">
+            <label for="username">Korisničko ime</label>
+            <input type="text" id="username" name="username" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="password">Lozinka</label>
+            <input type="password" id="password" name="password" required>
+          </div>
+          <button type="submit">Registriraj se</button>
+        </form>
+      </div>
+      
+  </footer>
+  </body>
+  </html>
